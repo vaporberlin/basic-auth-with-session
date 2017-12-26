@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Auth</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+            </head>
+    <body class="container">
+        <br />
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Profile</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Email: #(user.email)</p>
+                        <a href="/logout" class="btn btn-block btn-warning">logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
